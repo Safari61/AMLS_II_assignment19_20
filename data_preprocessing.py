@@ -9,7 +9,7 @@ raw_data_150 = []
 y_150 = []
 X_150 = []
 
-# Read data
+# Read and resize data
 for img in os.listdir(DATADIR):
     names = img.split('.')[0]
     if names == 'cat':
